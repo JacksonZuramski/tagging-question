@@ -1,0 +1,80 @@
+{
+    "default": {
+    "default btn - true": {
+      "correct": true,
+      "feedback": "default feedback option true"
+    },
+    "default btn - false": {
+      "correct": false,
+      "feedback": "default feedback option false"
+    }
+  },
+    "hax-logo": {
+      "Good form": {
+        "correct": true,
+        "feedback": "Correct - Good Form: The shape of the vase clearly demonstrates craftsmanship."
+      },
+      "Poor taste": {
+        "correct": false,
+        "feedback": "Incorrect - Poor Taste: Taste is in the eye of the designer as well as the viewer."
+      },
+      "Contrasting themes": {
+        "correct": false,
+        "feedback": "Incorrect - Contrasting Themes: There is uniformity in the shape, but there is no depth to this media to imply that it is contrasting with other figures."
+      },
+      "AI": {
+        "correct": true,
+        "feedback": "Correct - AI: While a modification of prior work, this is still AI generative work."
+      },
+      "Shading": {
+        "correct": false,
+        "feedback": "Incorrect - Shading: While there is a light source and a shadow cast, shading is a term used for pencil based sketching."
+      },
+      "Original work": {
+        "correct": false,
+        "feedback": "Incorrect - Original Work: Artwork created from gerenateive AI can not be original since it is trained on other artists work."
+      },
+      "Accessible": {
+        "correct": false,
+        "feedback": "Incorrect - Accessible: The color scheme while high contrast in some areas, loses form in others and has written text unrelated to the character."
+      }
+    },
+    "dog": {
+      "Bald": {
+        "correct": true,
+        "feedback": "Correct - Cop is bald, oh wait maybe he isnt"
+      },
+      "Is a cute dog": {
+        "correct": false,
+        "feedback": "Incorrect - Is a dog but that little rat is not cute"
+      },
+      "Wearing shades": {
+        "correct": true,
+        "feedback": "Correct - Has nice shades so the cop cannot see that he may be under the influence"
+      },
+      "Is fluffy": {
+        "correct": true,
+        "feedback": "Is a fluffy lil guy"
+      },
+      "Cop is happy": {
+        "correct": true,
+        "feedback": "Correct - He looks pretty chill"
+      },
+      "Red Car": {
+        "correct": true,
+        "feedback": "Correct - Dog led high speed chase in red convertible"
+      },
+      "4K image": {
+        "correct": false,
+        "feedback": "Incorrect - Looks to be taken on a Potato"
+      },
+      "Violence": {
+        "correct": false,
+        "feedback": "Incorrect - No violence, cop looks like he just wants to pet the lil guy"
+      },
+      "Accessible": {
+        "correct": false,
+        "feedback": "Incorrect - Accessible: The color scheme while high contrast in some areas, loses form in others and has written text unrelated to the character."
+      }
+    }
+  }

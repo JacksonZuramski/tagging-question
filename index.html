@@ -16,27 +16,49 @@
       font-family: sans-serif;
       background-color: #ededed;
     }
+
     polaris-chip {
       margin: 16px;
     }
+
+    .instructions {
+        font-family: sans-serif;
+        text-align: center;
+        color: red;
+        display: flex;
+        justify-content: center;
+        max-width: 50%;
+        margin-left: 25%;
+      }
+
   </style>
   <title>polaris-chip / my-card</title>
 </head>
 
 <body>
-  <h1>polaris-chip</h1>
-  <!-- this is going to do whatever the tag's defaults are -->
-  <polaris-chip title="News of Record" link="https://psu.edu/"></polaris-chip>
-  <polaris-chip title="Faculty and Staff"></polaris-chip>
-  <polaris-chip title="Sports are the only thing that matter"></polaris-chip>
-  <polaris-chip title="Grants and donations"></polaris-chip>
+  <div class="instructions">
+    <p>View the image, click to read its description, and then use the chips below to describe it. Drag the chips or click on them to place them in the drop zone and check your answer.
+    </p>
+  </div>
 
-  <h1>my-card</h1>
-  <my-card></my-card>
+  <tagging-question
+  question="Which tags best describe this image?"
+  description="A dog wearing sunglasses that's about to be arrested during a traffic stop for eating the last 95% of the worlds bacon"
+  imageURL="https://d.newsweek.com/en/full/2032093/koda-dog-pulled-over.webp"
+  answerset="dog"
+  ></tagging-question>
+
+  <tagging-question
+  question="Which tags best describe this image?"
+  description="The logo of the Joker "
+  imageURL="https://iam.hax.psu.edu/emo5318/sites/mannyortiz/assets/banner.jpg"
+  answerset="hax-logo"
+  >  
+  </tagging-question>
 
   <!-- this is what is bringing in the definition for this tag -->
   <script type="module" src="./src/polaris-chip.js"></script>
-  <script type="module" src="./src/my-card.js"></script>
+  <script type="module" src="./src/tagging-project.js"></script>
 </body>
 
 </html>
